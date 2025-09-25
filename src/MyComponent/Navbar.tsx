@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-       <div className='w-full p-4 flex z-50 justify-between px-6 items-center fixed bg-transparent'>
+       <div className='w-full p-4  flex z-50 justify-between px-6 items-center fixed bg-white/20'>
         <img src="public/img/logo (1).svg" className='h-12' alt="" />
         <ul className='flex gap-6 text-white font-medium'>
           <li className='hover:line-through transition-all text-xl font-light duration-500 ease-initial'><a href="/">Home</a></li>
