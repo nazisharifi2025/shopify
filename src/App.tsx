@@ -7,6 +7,7 @@ function App() {
   <div className="h-screen w-full font-enter bg-black/90 overflow-y-scroll">
     <Navbar/>
     <Home/>
+    
   </div>
   )
 }
