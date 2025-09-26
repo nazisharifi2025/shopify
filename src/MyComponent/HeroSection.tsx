@@ -54,7 +54,7 @@ function HeroSection() {
       name: "CRAFTSMANSHIP  ",
       Job : "Enjoy Style And Comfort  ",
       des : "Consectetur a erat nam at. Facilisis magna etiam tempor orci. Sem et tortor consequat id.  Fermentum egestas tellus. Nunc eu hendrerit turpis. Fusce non lectus sem. In pellentesque nunc non. Donec pretium gravida neque et placerat.",
-      imgUrl : "/img/hero4.webp"
+      imgUrl : "public/img/hero4.jpg    "
     },
     {
       name: "َLUXURIOUS LIFESTYLE  ",
@@ -65,16 +65,16 @@ function HeroSection() {
 
   ]
   return (
-    <div className='h-[70vh] w-full '>
+    <div className='lg:h-screen h-[70vh] w-full '>
       <Slider {...settings}>
         {Cards.map((card, index) => (
             <div key={index}  className='h-full w-full overflow-hidden transition-all duration-1000 ease-linear  flex flex-col relative md:flex-row  justify-center items-center  gap-6'>
-              <img src={card.imgUrl} className='h-full hover:scale-150 transition-all duration-500 ease-linear w-full object-cover' alt="" />
-              <div className='flex flex-col gap-3 md:gap-6 absolute top-[30%] w-[90%] right-24 z-50 text-white items-center justify-center'>
+              <img src={card.imgUrl} className='lg:h-full h-[80vh] hover:scale-150 transition-all duration-500 ease-linear w-full object-cover' alt="" />
+              <div className='flex flex-col gap-3 md:gap-6 absolute top-[30%] w-[90%] lg:right-24 md:right-14 right-1 z-50 text-white items-center justify-center'>
 
-                <h1 className='font-medium text-amber-700 text-2xl'>{card.name}</h1>
-                <h2 className='font-medium text-5xl'>{card.Job}</h2>
-                <p className='w-[40%] text-center'>{card.des}</p>
+                <h1 className='font-medium text-center text-amber-700 text-2xl'>{card.name}</h1>
+                <h2 className='font-medium text-center text-5xl'>{card.Job}</h2>
+                <p className='lg:w-[40%] w-[90%] text-center'>{card.des}</p>
                 <button className='px-6 py-2.5 bg-amber-700 hover:outline-1 outline-amber-600 outline-offset-2 transition-all duration-700 text-white ease-linear font-serif w-fit '>Shop Now</button>
                 </div>
             </div>
