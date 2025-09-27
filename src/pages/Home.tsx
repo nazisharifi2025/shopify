@@ -6,7 +6,10 @@ import Login from '../MyComponent/Login'
 import Servisec from '../MyComponent/Servisec'
 import ExplorOur from '../MyComponent/ExplorOur'
 import Prouduct from '../MyComponent/Prouduct'
-import Sleeck from '../MyComponent/sleeck'
+import Roomsection from '../MyComponent/Roomsection'
+import AboutPart from '../MyComponent/Aboutpart'
+import Blogpart from '../MyComponent/Blogpart'
+import Footer from '../MyComponent/Footer'
 function Home() {
   return (
     <div>
@@ -15,9 +18,12 @@ function Home() {
     <Servisec/>
     <ExplorOur/>
     <Prouduct/>
-    <Sleeck/>
+    <Roomsection/>
+    <AboutPart/>
+    <Blogpart/>
     <Card/>
     <Login/>
+    <Footer/>
     </div>
   )
 }

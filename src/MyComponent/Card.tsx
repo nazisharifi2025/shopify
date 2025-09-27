@@ -18,7 +18,7 @@ function Card() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: false,
@@ -68,10 +68,13 @@ function Card() {
             bg:"/img/hero4.webp",
             logo:"/img/Group_25741_9ef66ca4-0f60-4e5a-9b2a-64802ff82a61.webp"
         },
-       
+        {
+            bg:"/img/hero.jpg",
+            logo:"/img/Group_25740.webp"
+        },
     ]
   return (
-    <div className='w-full  flex'>
+    <div className='w-full  flex p-2'>
         <Slider {...settings} className='w-full'>
         {imges.map((obj,index)=>(
         <div key={index} className='lg:h-34 h-34 lg:w-1/4 md:w-1/3 w-full bg-cover bg-no-repeat  relative bg-center group' style={{ backgroundImage: `url(${obj.bg})` }}>
@@ -79,7 +82,7 @@ function Card() {
         <div className='h-full w-56 z-50 bg-stone-800 flex flex-col justify-center items-center p-1 ml-0 group-hover:w-0 transition-all duration-700 ease-linear  text-white'>
         
         </div>
-        <img src={obj.logo} className=' absolute lg:left-5 md:top-12 top-12 lg:top-6 ' alt="" />
+        <img src={obj.logo} className=' absolute lg:left-10 md:top-12 top-12 lg:top-10 ' alt="" />
         </div>
         ))}
         </Slider>

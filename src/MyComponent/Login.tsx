@@ -14,6 +14,11 @@ function Login() {
       <Send Size={24} />
       </button>
       </div>
+       <div className="  w-full h-fit flex items-center justify-center" >
+                  <input className="h-5 w-5 border" type="checkbox" />
+                <p className="text-neutral-400 pl-2"> Your email is safe whit us,we don't spam.</p>
+                <h1 className="text-white hover:underline underline-offset-1">Privacy policy</h1>
+            </div>
       </div>
     </div>
   )
