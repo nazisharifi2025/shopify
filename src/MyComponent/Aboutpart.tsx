@@ -46,22 +46,22 @@ function AboutPart() {
   const Cards = [
     {
       name: "Rahela Qambari",
-  imgUrl : "/img/1758968794785.jpg"
+  imgUrl : "/img/me.jpg"
     },
     {
       name: "َNazi Sharifi",
-    imgUrl : "/img/1758968794812.jpg"
+    imgUrl : "/img/nazi.jpg"
     },
 
   ]
   return (
-    <div className="bg-neutral-800 h-screen w-full">
+    <div className="bg-neutral-800 lg:h-screen h-fit w-full">
       <Slider {...settings}>
         {Cards.map((card, index) => (
             <div key={index} >
-                 <div className="flex flex-col items-center space-y-6 justify-center h-60 w-full">
+                 <div className="flex flex-col items-center space-y-6 justify-center lg:h-60 md:h-52 h-32 w-full">
             <p className="text-sm text-amber-700">TESTIMONIAL TIME</p>
-            <h1 className="text-5xl  text-white">Our Coustomer Speak</h1>
+            <h1 className="lg:text-5xl md:text-5xl text-4xl  text-white">Our Coustomer Speak</h1>
             </div>
             <div className="flex-col w-full h-full text-center flex items-center justify-center gap-5">
                 <div className='flex space-x-3 text-sm'>
@@ -71,7 +71,7 @@ function AboutPart() {
           <i className='fas fa-star text-amber-600'></i>
           <i className='fas fa-star text-amber-800'></i>
         </div>
-                <p className="  h-[60%] w-[50%]  text-white text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat laudantium praesentium in sint accusantium veniam pariatur nesciunt temporibus ut nulla impedit aperiam consequatur voluptatem assumenda, neque, expedita natus provident.</p>
+                <p className="h-[60%] lg:w-[50%] w-[70%]  text-white text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat laudantium praesentium in sint accusantium veniam pariatur nesciunt temporibus ut nulla impedit aperiam consequatur voluptatem assumenda, neque, expedita natus provident.</p>
                  <img src={card.imgUrl} className='h-32 w-32 rounded-full object-cover' alt="" />
                 <div>
                      <h1 className="text-white text-xl">{card.name}</h1>

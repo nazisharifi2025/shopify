@@ -17,7 +17,6 @@ export default function Imgpart (){
                 <h1 className="text-white hover:underline underline-offset-1">Privacy policy</h1>
             </div>
             </div>
-            <div className="w-full h-72 "></div>
         </div>
     )
 }

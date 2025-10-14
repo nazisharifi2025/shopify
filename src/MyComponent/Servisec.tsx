@@ -1,4 +1,4 @@
-import { map } from 'framer-motion/client'
+// import { map } from 'framer-motion/client'
 import React, { useState } from 'react'
 
 function Servisec() {

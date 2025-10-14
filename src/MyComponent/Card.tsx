@@ -61,7 +61,7 @@ function Card() {
             logo:"/img/Group_25742.webp"
         },
         {
-            bg:"/img/blog-04_1f730a28-ccd5-4d96-a834-b3ee4d07e036.webp",
+            bg:"/img/blog.webp",
             logo:"/img/Group_25743.webp"
         },
         {
@@ -74,7 +74,7 @@ function Card() {
         },
     ]
   return (
-    <div className='w-full  flex p-2'>
+    <div className='w-full  flex p-2 mt-14'>
         <Slider {...settings} className='w-full'>
         {imges.map((obj,index)=>(
         <div key={index} className='lg:h-34 h-34 lg:w-1/4 md:w-1/3 w-full bg-cover bg-no-repeat  relative bg-center group' style={{ backgroundImage: `url(${obj.bg})` }}>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -92,7 +92,7 @@ function ExplorOur() {
                 <p className='text-gray-600 text-center'>{item.p}</p>
                 <h1 className='text-2xl text-white text-center'>{item.h1}</h1>
                 <h3 className='text-white text-center'>{item.h3}</h3>
-                <div className={`h-[350px] w-full rounded-2xl flex-col hidden group-hover:block items-end bg-cover absolute top-5 transition-all duration-1000 ease-linear right-0 bg-no-repeat `} style={{backgroundImage:`url(${item.bg})`}}>
+                <div className={`h-[350px] w-full rounded-2xl flex-col hidden group-hover:block items-end bg-cover absolute top-0 transition-all duration-1000 ease-linear right-0 bg-no-repeat `} style={{backgroundImage:`url(${item.bg})`}}>
                 <div className='flex flex-col items-end gap-2 p-4  text-white text-xl'>
                 <i className='p-3 rounded-full bg-gray-500/50 fas fa-magnifying-glass'></i>
                 <i className='p-3 rounded-full bg-gray-500/50 fas fa-heart'></i>
