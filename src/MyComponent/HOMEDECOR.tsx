@@ -1,5 +1,3 @@
-import React from 'react'
-
 function HOMEDECOR() {
   return (
     <div className='h-fit w-full mx-auto my-24 gap-6 flex lg:flex-row flex-col justify-between items-center  p-12'>

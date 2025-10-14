@@ -1,5 +1,5 @@
 // import { map } from 'framer-motion/client'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function Servisec() {
       const data = [

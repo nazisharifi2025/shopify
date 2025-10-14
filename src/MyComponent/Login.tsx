@@ -1,6 +1,3 @@
-
-import React from 'react'
-
 function Login() {
   return (
     <div className='w-full lg:h-[70vh] md:h-[40vh] h-[30vh] bg-cover bg-center object-cover bg-no-repeat bg-[url(/img/bg.jpg)] '>
