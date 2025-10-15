@@ -80,26 +80,32 @@ function ExplorOur() {
   <h3 className='text-amber-600'>EXPLORE OUR</h3>
   <h1 className='lg:text-5xl md:text-4xl text-2xl text-white'>Luxurious Haven Collection</h1>
 
- <div className="w-full overflow-hidden">
-  <Slider {...settings}>
-    {data.map((item, index) => (
-      <div
-        key={index}
-        className="h-[500px] px-2 flex flex-col justify-center items-center"
-      >
-        <img
-          src={item.img}
-          className="w-full h-[350px] object-cover rounded-2xl"
-          alt=""
-        />
-        <p className="text-gray-400 text-center">{item.p}</p>
-        <h1 className="text-2xl text-white text-center">{item.h1}</h1>
-        <h3 className="text-white text-center">{item.h3}</h3>
-      </div>
-    ))}
-  </Slider>
-</div>
-
+  <div className='w-full'>
+    <Slider {...settings} className='w-full'>
+      {data.map((item, index) => (
+        <div
+          key={index}
+          className='h-[500px] w-full transition-all duration-700 ease-linear rounded-2xl flex flex-col justify-center group relative items-center gap-3'
+        >
+          <img src={item.img} className='w-full h-[350px] rounded-2xl' alt='' />
+          <p className='text-gray-600 text-center'>{item.p}</p>
+          <h1 className='text-2xl text-white text-center'>{item.h1}</h1>
+          <h3 className='text-white text-center'>{item.h3}</h3>
+          <div
+            className='h-[350px] w-full rounded-2xl flex-col hidden group-hover:flex items-end bg-cover absolute top-0 transition-all duration-700 ease-linear right-0 bg-no-repeat'
+            style={{ backgroundImage: `url(${item.bg})` }}
+          >
+            <div className='flex flex-col items-end gap-2 p-4 text-white text-xl'>
+              <i className='p-3 rounded-full bg-gray-500/50 fas fa-magnifying-glass'></i>
+              <i className='p-3 rounded-full bg-gray-500/50 fas fa-heart'></i>
+              <i className='p-3 rounded-full bg-gray-500/50 fas fa-arrows-rotate'></i>
+              <i className='p-3 rounded-full bg-gray-500/50 fas fa-cart-shopping'></i>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  </div>
 </div>
 
   )
