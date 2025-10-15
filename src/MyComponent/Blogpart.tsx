@@ -1,11 +1,11 @@
 export default function Blogpart (){
     return(
-        <div className=" w-full">
+        <div className=" w-full h-fit my-6 md:my-1">
                 <div className="h-40 w-full flex flex-col justify-end font-enter space-y-4 pl-6">
                     <p className="text-sm text-amber-700">GET THE LATEST NEWS</p>
                     <h1 className="text-5xl font-light text-white ">Visit Our Blog</h1>
             </div>
-            <div className="w-full h-screen flex lg:flex-row flex-col justify-center  items-center">
+            <div className="w-full md:h-screen h-fit md:my-5 my-6 flex lg:flex-row flex-col justify-center  items-center">
             <div className="lg:w-1/2 w-[70%] lg:py-0 py-10  flex flex-col lg:space-y-40  justify-center items-center">
                 <div className="flex items-center justify-center">
                     <img className="rounded-2xl w-[90%]" src="/img/blog-01.webp" alt="" />
