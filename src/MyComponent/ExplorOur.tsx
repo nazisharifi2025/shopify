@@ -84,7 +84,7 @@ function ExplorOur() {
         <div className='flex flex-wrap w-full justify-between items-center space-x-2'>
             <Slider {...settings} className='w-full flex justify-between gap-5'>
             {data.map((item,index)=>(
-            <div key={index} className='h-[500px] w-[300px] transition-all duration-1000 ease-linear rounded-2xl flex flex-col justify-center group relative items-center gap-3 '>
+            <div key={index} className='h-[500px] md:w-[300px] transition-all duration-1000 ease-linear rounded-2xl flex flex-col justify-center group relative items-center gap-3 '>
                 <img src={item.img}  className='w-full h-[350px] rounded-2xl' alt="" />
                 <p className='text-gray-600 text-center'>{item.p}</p>
                 <h1 className='text-2xl text-white text-center'>{item.h1}</h1>
