@@ -15,7 +15,7 @@ function Servisec() {
     const [bgImg, setBgImg] = useState("/img/blog-02.webp");
   return (
     <div
-      className='md:h-[70vh] h-[80vh] w-full bg-cover bg-no-repeat bg-center gap-6 flex justify-between items-center'
+      className='md:h-[70vh] h-fit md:my-0 my-6 w-full bg-cover bg-no-repeat bg-center gap-6 flex justify-between items-center'
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className='h-full flex-wrap w-full bg-black/60 flex justify-center items-center text-white gap-10'>
@@ -27,7 +27,7 @@ function Servisec() {
             className='flex h-fit w-fit p-3 items-center space-x-5'
           >
             <i className={` ${item.icon} text-4xl text-amber-600`}></i>
-            <h1 className='text-4xl font-bold'>{item.title}</h1>
+            <h1 className='md:text-4xl text-3xl font-bold'>{item.title}</h1>
           </div>
         ))}
       </div>

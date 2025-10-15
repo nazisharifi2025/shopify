@@ -72,7 +72,7 @@ function HeroSection() {
               <div className='flex flex-col gap-3 md:gap-6 absolute top-[30%] w-[90%] lg:right-24 md:right-14 right-1 z-50 text-white items-center justify-center'>
 
                 <h1 className='font-medium text-center text-amber-700 text-2xl'>{card.name}</h1>
-                <h2 className='font-medium text-center text-5xl'>{card.Job}</h2>
+                <h2 className='font-medium text-center text-3xl md:text-5xl'>{card.Job}</h2>
                 <p className='lg:w-[40%] w-[90%] text-center'>{card.des}</p>
                 <button className='px-6 py-2.5 bg-amber-700 hover:outline-1 outline-amber-600 outline-offset-2 transition-all duration-700 text-white ease-linear font-serif w-fit '>Shop Now</button>
                 </div>
