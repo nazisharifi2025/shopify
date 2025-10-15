@@ -2,7 +2,7 @@ import { Github, Instagram, Linkedin, MessageCircle, Youtube } from "lucide-reac
 
 export default function Footer(){
     return(
-        <div className="lg:h-[80vh] h-[130vh] md:h-[80vh] w-full bg-[url(/image/a12.webp)] ">
+        <div className="lg:h-[80vh] h-[140vh] md:h-[80vh] w-full bg-[url(/image/a12.webp)] ">
             <div className="h-full w-full bg-[rgba(0,0,0,0.8)] lg:flex-row flex-col relative flex justify-between items-center lg:p-20 p-6 ">
                 <div className="lg:h-[80%] h-full lg:w-[40%] md:w-full flex flex-col gap-3 lg:border-r border-white">
                  <img src="/img/logo (1).svg" className="h-40 w-40" alt="" />
