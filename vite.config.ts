@@ -7,7 +7,14 @@ export default defineConfig({
     tailwindcss(),
     react()],
   optimizeDeps: {
-    include: ["react-slick", "slick-carousel/slick/slick.css", "slick-carousel/slick/slick-theme.css"],
+    include: [
+      "react-slick",
+      "slick-carousel/slick/slick.css",
+      "slick-carousel/slick/slick-theme.css"
+    ],
+  },
+  css: {
+    devSourcemap: true,
   },
 });
 
