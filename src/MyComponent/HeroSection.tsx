@@ -49,7 +49,12 @@ function HeroSection() {
       des : "Consectetur a erat nam at. Facilisis magna etiam tempor orci. Sem et tortor consequat id.  Fermentum egestas tellus. Nunc eu hendrerit turpis. Fusce non lectus sem. In pellentesque nunc non.  Donec pretium gravida neque et placerat.",
       imgUrl : "/img/b1.webp"
     },
-
+    {
+      name: "CRAFTSMANSHIP  ",
+      Job : "Enjoy Style And Comfort  ",
+      des : "Consectetur a erat nam at. Facilisis magna etiam tempor orci. Sem et tortor consequat id.  Fermentum egestas tellus. Nunc eu hendrerit turpis. Fusce non lectus sem. In pellentesque nunc non. Donec pretium gravida neque et placerat.",
+      imgUrl : "public/img/hero4.jpg"
+    },
     {
       name: "َLUXURIOUS LIFESTYLE  ",
       Job : "Browse Living Room Pieces",
