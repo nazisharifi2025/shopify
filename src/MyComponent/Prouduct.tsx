@@ -31,11 +31,11 @@ function Prouduct() {
            {text.map((item,index)=>(
            <div key={index} className='w-full p-2 flex flex-col gap-4 border-b border-gray-600 pb-5'>
             <div onClick={()=> toggelbtn(index)} className='flex justify-between items-center w-full'>
-            <h1 className='text-2xl cursor-pointer font-light hover:text-amber-600'>{item.h1}</h1>
+            <h1 className='md:text-2xl text-xl cursor-pointer font-light hover:text-amber-600'>{item.h1}</h1>
             <i className='fas fa-arrow-down cursor-pointer'></i>
             </div>
             {isOpin === index && (
-            <p className=' text-gray-500 w-[90%] '>{item.p}</p>
+            <p className=' text-gray-500 md:w-[90%] w-full '>{item.p}</p>
             )}
            </div>
            ))}
