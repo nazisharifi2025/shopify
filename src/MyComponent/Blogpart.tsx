@@ -19,7 +19,7 @@ export default function Blogpart (){
                 <div>
                     <img className="hover:scale-110 h-48 md:w-56 w-full rounded-2xl" src="/img/blog-05.jpg" alt="" />
                 </div>
-                <div className="flex flex-col  md:w-[50%] w-full h-48 justify-between">
+                <div className="flex flex-col  md:w-[50%] w-full lg:h-48 h-fit md:my-0 my-4 justify-between">
                     <p className="text-sm text-amber-700">MAY 27,2024</p>
                     <h1 className="lg:text-2xl md:text-2xl text-lg  font-light text-white ">Tips For designing Reading Area Space Smartly</h1>
                     <p className="font-light text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum...</p>
@@ -29,17 +29,17 @@ export default function Blogpart (){
                 <div>
                     <img className="hover:scale-110 h-40 md:w-56 w-full rounded-2xl" src="/img/blog.webp" alt="" />
                 </div>
-                <div className="flex flex-col  md:w-[50%] w-full h-40 justify-between">
+                <div className="flex flex-col  md:w-[50%] w-full lg:h-40 h-fit md:my-0 my-4 justify-between">
                     <p className="text-sm text-amber-700">MAY 27,2024</p>
                     <h1 className="lg:text-2xl md:text-2xl text-lg font-light text-white ">Easy Way To Furnish Your Home Affordably</h1>
                     <p className="font-light text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum...</p>
                 </div>
             </div>
-             <div className="flex gap-6 md:flex-row flex-col items-center">
+             <div className="flex gap-6 md:flex-row flex-col w-full items-center">
                 <div>
                     <img className="hover:scale-110 h-40 md:w-56 w-full rounded-2xl" src="/img/newsletter.webp" alt="" />
                 </div>
-                <div className="flex flex-col  md:w-[50%] w-full h-40 justify-between">
+                <div className="flex flex-col  md:w-[50%] w-full lg:h-40 h-fit md:my-0 my-4 justify-between">
                     <p className="text-sm text-amber-700">MAY 27,2024</p>
                     <h1 className="lg:text-2xl md:text-2xl text-lg  font-light text-white ">Minimalist Modern Modular Kitchen Design</h1>
                     <p className="font-light text-neutral-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum...</p>

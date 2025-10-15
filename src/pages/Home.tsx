@@ -11,7 +11,7 @@ import Blogpart from '../MyComponent/Blogpart'
 import Footer from '../MyComponent/Footer'
 function Home() {
   return (
-    <div>
+    <div className=' overflow-x-hidden'>
     <HeroSection/>
     <HOMEDECOR/>
     <Servisec/>
