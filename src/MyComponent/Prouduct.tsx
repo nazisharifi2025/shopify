@@ -27,7 +27,7 @@ function Prouduct() {
     <div className='w-full h-fit flex lg:flex-row flex-col text-white justify-between  p-12'>
         <div className='lg:w-[60%] w-full lg:p-10 md:px-10 p-1 h-full flex flex-col gap-5 justify-center items-start'>
            <h3 className='text-amber-600'>PRODUCT RELATED QUERIES</h3>
-           <h1 className='text-6xl'>Products & Service</h1>
+           <h1 className='md:text-6xl text-3xl'>Products & Service</h1>
            {text.map((item,index)=>(
            <div key={index} className='w-full p-2 flex flex-col gap-4 border-b border-gray-600 pb-5'>
             <div onClick={()=> toggelbtn(index)} className='flex justify-between items-center w-full'>
