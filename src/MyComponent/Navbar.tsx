@@ -4,7 +4,6 @@ function Navbar() {
   const [opin,setopin] = useState(false);
   return (
        <div className='w-full lg:p-4 md:p-4 p-2 flex z-50 justify-between lg:px-6 md:px-6 px-1 items-center fixed bg-white/20'>
-        {/* <div className='lg:h-12 md:h-10 h-8 bg-cover bg-no-repeat bg-center bg-[url())]'></div> */}
         <img src="/img/logo (1).svg" className='lg:h-12 md:h-10 h-8' alt="" />
         <ul className='lg:flex hidden gap-6 text-white font-medium '>
           <li className='hover:line-through transition-all text-xl font-light duration-500 ease-initial'><a href="/">Home</a></li>
